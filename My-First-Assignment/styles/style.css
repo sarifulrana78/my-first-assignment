@@ -1,0 +1,59 @@
+/* body{
+    background-color: blue;
+} */
+ *{
+    margin: 0;
+    padding: 0;
+   
+
+ }
+
+ /* Buttons */
+ .btn{
+    padding: 12px 24px;
+    border-radius: 6px;
+    border: none;
+    cursor:pointer;
+    transition: 0.3s;
+ }
+ .btn.primary {
+    background: #30B868;
+    color: #30B868;
+
+ }
+
+ .btn.secondaryn{
+    background: transparent ;
+    border: 1px solid #fff ;
+    color: #ffffff;
+ }
+ .btn:hover {
+    opacity: 0.85;
+    transform: translateY(-2px);
+ }
+/*  Navbar */
+.navbar {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    padding: 16px 48px;
+    background: #fff;
+}
+.nav-center ul{
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    list-style: none;
+}
+.nav-center a{
+    font-family: "inter", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.52;
+    color:#000;
+    text-decoration: none;
+
+
+}
+
+
