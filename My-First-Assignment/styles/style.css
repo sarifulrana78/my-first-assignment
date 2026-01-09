@@ -18,7 +18,7 @@
  }
  .btn.primary {
     background: #30B868;
-    color: #30B868;
+    color: #ffff;
 
  }
 
@@ -55,5 +55,90 @@
 
 
 }
+/* banner */
+.banner {
+    height: 100vh ;
+    background: url("Sections/Banner,png") center /cover no-repeat ;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner-overlay{
+    position: absolute;
+    inset: 0 ;
+    background: rgba(red, green, blue, alpha);
 
+}
+.banner-content{
+    position: relative;
+    text-align: center;
+    max-width: 800px;
+    padding: 20px;
+    color: #fff;
+    z-index: 2;
 
+}
+.banner-content h1{
+    font-size: 48px;
+    line-height: 1.2;
+}
+.banner-content h1 span{
+    color: #2ecc71;
+}
+.banner-content p{
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 20px 0;
+    opacity: 0.9;
+}
+.banner-buttons{
+    margin-top: 24px;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+.btn{
+    padding: 12px 22px;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+    border:none;
+}
+.btn.primary{
+    background: #2ecc71;
+    color: #fff;
+}
+.btn.btn.secondary{
+    background: transparent;
+    color: #fff;
+}
+.badge {
+    display: inline-block;
+    background: #ffffff;
+    color: #2ecc71;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+/* notes */
+.notes{
+    padding: 80px 48px;
+    text-align: center;
+}
+.subtitle{
+    margin: 12px 0 48px;
+    color: #6b726b;
+}
+.notes-row{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+.note-card{
+    width: 230px;
+    padding: 24px;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+}
